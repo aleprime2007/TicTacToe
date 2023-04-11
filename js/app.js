@@ -60,7 +60,7 @@ function comprobaciones(){
                 ganoO()
                 console.log(slots[1], slots[4], slots[7])
                 break;
-            case slots[6] === "o" && slots[7] === "o" && slots[8] === "o":
+            case slots[2] === "o" && slots[5] === "o" && slots[8] === "o":
                 ganoO()
                 console.log(slots[2], slots[5], slots[8])
                 break;
@@ -97,7 +97,7 @@ function comprobaciones(){
                 ganoX()
                 console.log(slots[1], slots[4], slots[7])
                 break;
-            case slots[6] === "x" && slots[7] === "x" && slots[8] === "x":
+            case slots[2] === "x" && slots[5] === "x" && slots[8] === "x":
                 ganoX()
                 console.log(slots[2], slots[5], slots[8])
                 break;

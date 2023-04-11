@@ -1,6 +1,6 @@
 body{
     background-color: rgb(31, 31, 34);
-    font-family: arial;
+    font-family: arial rounded mt;
     overflow: hidden;
 }
 
@@ -91,6 +91,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .equis{
     display: flex;
